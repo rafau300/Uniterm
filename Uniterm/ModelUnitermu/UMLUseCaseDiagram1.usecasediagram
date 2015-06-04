@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="e0e73f40-1af1-48fa-94c2-67464757bd91" name="UMLUseCaseDiagram1" linkedPackageId="2f53cf4b-cbb2-4e06-ba72-7ef88018e094" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="9317a9c2-124d-4bb6-9893-c3fba9b00b8c">
+      <profileInstance Id="1ca26d4d-b5e0-4cc3-9ecb-3e40eded19c1" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="cf3b6c31-6a6e-4265-be12-aee8bd849595">
+      <profileInstance Id="15d695f9-1001-4381-bb8f-6e14c466dd86" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="ca0e7e4e-ede6-40ff-bb09-8d1b703418eb">
+      <profileInstance Id="ea862cba-5516-4855-8413-a2167977abe8" name="CSharpProfile">
+        <elementDefinition Id="f0009bfe-b5cf-42d6-b9ca-422c53d57716" />
+      </profileInstance>
+      <elementDefinition Id="9f7b998b-1b39-4664-bbff-d05c7dbf3460" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="380776e1-824b-4871-bf58-b07aa32fd4dd" name="użytkownik" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="df2644c7-eb6f-4664-92fc-962424943fe4" />
+        <suppliersInternal>
+          <dependency Id="0de63f97-32bb-4806-96c6-d50a2ac141b2">
+            <useCaseMoniker Id="269b4546-d8be-4887-abdf-45a2a9bd4acb" LastKnownName="zamień na operację pionową" />
+            <elementDefinition Id="8a74c9af-6dec-4a07-9088-deb0411b2fea" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association Id="8a89767e-0a54-4996-8138-3e8be81e0e6c" isDerived="false" sourceEndRoleName="użytkownik" targetEndRoleName="uruchom program" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ae190202-9ca8-42e6-b32c-551b49546cf2" LastKnownName="uruchom program" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4b0387f7-5297-4fac-bd42-3aac4cbfe807" name="użytkownik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="56343f45-eff8-40a7-8429-2ae413de5c6e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6782501a-427a-42ec-b677-5b1c5234ca40" name="uruchom program" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1bde7675-c7c3-493f-a91a-e23878f6a438" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f55b53d5-8e6a-43e2-ade6-939382123843" />
+          </association>
+          <association Id="e3467350-a173-452d-9c62-1af038e8c828" isDerived="false" sourceEndRoleName="użytkownik" targetEndRoleName="dodaj operację" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="13db08ef-90c7-466a-a19a-e51b35d25a63" LastKnownName="dodaj operację" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e83bb854-8626-48bd-81b9-8b17d639da4a" name="użytkownik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="07d5fd96-c370-4133-aae2-b0629ef36692" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="af04f3fe-6830-44a2-9068-f913d7f48d04" name="dodaj operację" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6057ca59-340e-43f1-8605-8c7313a56bc8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0a7158ed-d343-4b37-a827-5e5deac76a6e" />
+          </association>
+          <association Id="64074afa-310d-4ecc-9cb9-fc6551ecc106" isDerived="false" sourceEndRoleName="użytkownik" targetEndRoleName="zapisz dane w bazie danych" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="eda647e3-1c7a-4a3a-8a9f-127ff0708775" LastKnownName="zapisz dane w bazie danych" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f1de3905-8802-4d00-9581-9404ec178201" name="użytkownik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="80668c72-23d9-4550-ac05-d28c218b0970" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="368223be-2374-4936-b5dc-aef8f0d87148" name="zapisz dane w bazie danych" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f47b8eeb-6655-4d5f-92a3-18b7d7dfb860" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f7693c46-454e-479f-a470-5983e4aff60f" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8d0dbb2d-b3ff-4cd3-9222-e357e91bd1e6" name="zaloguj się do bazy danych" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d7170a4e-ae9c-4eb9-92fe-1944e80f4270" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ae190202-9ca8-42e6-b32c-551b49546cf2" name="uruchom program" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="62425fde-337b-4887-979d-42abe78b9873" />
+        <additions>
+          <include Id="47604397-acc0-4a8c-bac5-52a004eda8f0">
+            <useCaseMoniker Id="8d0dbb2d-b3ff-4cd3-9222-e357e91bd1e6" LastKnownName="zaloguj się do bazy danych" />
+            <elementDefinition Id="d6eb24c2-84ce-4b55-b4cf-d708a6dd2893" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="13db08ef-90c7-466a-a19a-e51b35d25a63" name="dodaj operację" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fa156427-151a-4220-b84e-421e1a67beb7" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a3c97f7d-25fe-4d8b-82d4-58038d713fb0" name="wpisz dane" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="69e83392-bb0c-405e-8257-77538891e58d" />
+        <extendedCases>
+          <extend Id="a29bbc00-4aab-46ef-86ed-cc0c66757e4b">
+            <useCaseMoniker Id="13db08ef-90c7-466a-a19a-e51b35d25a63" LastKnownName="dodaj operację" />
+            <elementDefinition Id="e4fbc349-68f0-43f9-860a-3c65bd2296a0" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="269b4546-d8be-4887-abdf-45a2a9bd4acb" name="zamień na operację pionową" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4d01574b-80de-4820-8c84-aa8bcb974aa6" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c6713961-1452-4619-8373-5976f5131ad3" name="Komunikat o błedzie, ze nie ma poziomej operacji" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="16b56bfb-676c-4c79-ae55-40e9ef494a13" />
+        <extendedCases>
+          <extend Id="0e979bb7-348d-4117-887b-c028abf47fed">
+            <useCaseMoniker Id="269b4546-d8be-4887-abdf-45a2a9bd4acb" LastKnownName="zamień na operację pionową" />
+            <elementDefinition Id="7e835183-8a5b-4c3a-8d09-4a0d775debe4" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include Id="042b6094-73d0-4094-95a6-d815b48c1266">
+            <useCaseMoniker Id="13db08ef-90c7-466a-a19a-e51b35d25a63" LastKnownName="dodaj operację" />
+            <elementDefinition Id="22a27dcf-4444-4556-bc38-3b9d7d85e2b5" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="eda647e3-1c7a-4a3a-8a9f-127ff0708775" name="zapisz dane w bazie danych" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9dfaa8b1-1af9-48c2-9c1b-bd43e19b615c" />
+        <additions>
+          <include Id="e8adf44b-9094-4fa1-b465-28b68eefba0a">
+            <useCaseMoniker Id="3fcf344e-f682-4cc2-9478-10f0786ca8bf" LastKnownName="dodaj nazwę i opis" />
+            <elementDefinition Id="539bf432-5fe8-4fae-8147-19fa31b1dfc1" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3fcf344e-f682-4cc2-9478-10f0786ca8bf" name="dodaj nazwę i opis" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fca4b220-f48d-4233-9b98-70fab119be5b" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="2f53cf4b-cbb2-4e06-ba72-7ef88018e094" name="ModelUnitermu">
+    <elementDefinition Id="2d732b59-3949-45a6-99e0-4d1397099f4b" />
+  </package>
+</useCaseModelRoot>

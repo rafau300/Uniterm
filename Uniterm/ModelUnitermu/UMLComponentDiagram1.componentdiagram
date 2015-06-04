@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="546ea8a7-aaaa-4ef3-94ca-e8f6ac3de8d8" name="UMLComponentDiagram1" linkedPackageId="46a2bc40-f0f9-488f-8dae-4f0b0752aa12" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="9957ba84-f6dd-4c0f-801a-a8522b7a8bf6">
+      <profileInstance Id="3ee16104-14d1-417b-aad6-8d37704a4790" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="0d920bc0-292b-447c-96cf-798ebbec62f8">
+      <profileInstance Id="efd5ea8f-68c2-4a64-ae74-6d7cf58b1a9e" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="8c318cb0-df5c-4950-8b7f-245bc94a996e">
+      <profileInstance Id="8127acbc-f6f1-46f3-a7c8-413a2ab5b307" name="CSharpProfile">
+        <elementDefinition Id="f0009bfe-b5cf-42d6-b9ca-422c53d57716" />
+      </profileInstance>
+      <elementDefinition Id="9f7b998b-1b39-4664-bbff-d05c7dbf3460" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="103949de-a68f-4eca-a9aa-5e796a0b3b94" name="Component1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5bbff633-8fa8-434a-bf63-f6abd4b1fff0" />
+      </component>
+    </componentModelHasComponents>
+  </packagedElements>
+  <package Id="46a2bc40-f0f9-488f-8dae-4f0b0752aa12" name="ModelUnitermu">
+    <elementDefinition Id="2d732b59-3949-45a6-99e0-4d1397099f4b" />
+  </package>
+</componentModel>

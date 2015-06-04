@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner"
+  dslVersion="1.0.0.0"
+  Id="2d732b59-3949-45a6-99e0-4d1397099f4b"
+  name="ModelUnitermu" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="9f7b998b-1b39-4664-bbff-d05c7dbf3460">
+      <profileInstance
+        Id="f0009bfe-b5cf-42d6-b9ca-422c53d57716"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="0655b913-fd1e-4042-a668-bf65d6fdfff1"
+        LastKnownName="Uniterm"
+        LastKnownLocation="Package_1343.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="18f7227a-c2a2-46a8-ab92-f9c308d4cce1"
+        LastKnownName="System"
+        LastKnownLocation="Package1_1343.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="df2644c7-eb6f-4664-92fc-962424943fe4"
+        name="użytkownik"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="8a74c9af-6dec-4a07-9088-deb0411b2fea">
+            <useCaseMoniker
+              Id="4d01574b-80de-4820-8c84-aa8bcb974aa6"
+              LastKnownName="zamień na operację pionową"
+              LastKnownLocation="ModelUnitermu.uml" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="f55b53d5-8e6a-43e2-ade6-939382123843"
+            isDerived="false"
+            sourceEndRoleName="użytkownik"
+            targetEndRoleName="uruchom program"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="62425fde-337b-4887-979d-42abe78b9873"
+              LastKnownName="uruchom program"
+              LastKnownLocation="ModelUnitermu.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="56343f45-eff8-40a7-8429-2ae413de5c6e"
+                  name="użytkownik"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1bde7675-c7c3-493f-a91a-e23878f6a438"
+                  name="uruchom program"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0a7158ed-d343-4b37-a827-5e5deac76a6e"
+            isDerived="false"
+            sourceEndRoleName="użytkownik"
+            targetEndRoleName="dodaj operację"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="fa156427-151a-4220-b84e-421e1a67beb7"
+              LastKnownName="dodaj operację"
+              LastKnownLocation="ModelUnitermu.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="07d5fd96-c370-4133-aae2-b0629ef36692"
+                  name="użytkownik"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6057ca59-340e-43f1-8605-8c7313a56bc8"
+                  name="dodaj operację"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="f7693c46-454e-479f-a470-5983e4aff60f"
+            isDerived="false"
+            sourceEndRoleName="użytkownik"
+            targetEndRoleName="zapisz dane w bazie danych"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="9dfaa8b1-1af9-48c2-9c1b-bd43e19b615c"
+              LastKnownName="zapisz dane w bazie danych"
+              LastKnownLocation="ModelUnitermu.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="80668c72-23d9-4550-ac05-d28c218b0970"
+                  name="użytkownik"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f47b8eeb-6655-4d5f-92a3-18b7d7dfb860"
+                  name="zapisz dane w bazie danych"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="5d6f8e74-3bc4-4868-8513-9357e5b08162"
+        name="baza danych"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d7170a4e-ae9c-4eb9-92fe-1944e80f4270"
+        name="zaloguj się do bazy danych"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="62425fde-337b-4887-979d-42abe78b9873"
+        name="uruchom program"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="d6eb24c2-84ce-4b55-b4cf-d708a6dd2893">
+            <useCaseMoniker
+              Id="d7170a4e-ae9c-4eb9-92fe-1944e80f4270"
+              LastKnownName="zaloguj się do bazy danych"
+              LastKnownLocation="ModelUnitermu.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="fa156427-151a-4220-b84e-421e1a67beb7"
+        name="dodaj operację"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="69e83392-bb0c-405e-8257-77538891e58d"
+        name="wpisz dane"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="e4fbc349-68f0-43f9-860a-3c65bd2296a0">
+            <useCaseMoniker
+              Id="fa156427-151a-4220-b84e-421e1a67beb7"
+              LastKnownName="dodaj operację"
+              LastKnownLocation="ModelUnitermu.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4d01574b-80de-4820-8c84-aa8bcb974aa6"
+        name="zamień na operację pionową"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="16b56bfb-676c-4c79-ae55-40e9ef494a13"
+        name="Komunikat o błedzie, ze nie ma poziomej operacji"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="7e835183-8a5b-4c3a-8d09-4a0d775debe4">
+            <useCaseMoniker
+              Id="4d01574b-80de-4820-8c84-aa8bcb974aa6"
+              LastKnownName="zamień na operację pionową"
+              LastKnownLocation="ModelUnitermu.uml" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include
+            Id="22a27dcf-4444-4556-bc38-3b9d7d85e2b5">
+            <useCaseMoniker
+              Id="fa156427-151a-4220-b84e-421e1a67beb7"
+              LastKnownName="dodaj operację"
+              LastKnownLocation="ModelUnitermu.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9dfaa8b1-1af9-48c2-9c1b-bd43e19b615c"
+        name="zapisz dane w bazie danych"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="539bf432-5fe8-4fae-8147-19fa31b1dfc1">
+            <useCaseMoniker
+              Id="fca4b220-f48d-4233-9b98-70fab119be5b"
+              LastKnownName="dodaj nazwę i opis"
+              LastKnownLocation="ModelUnitermu.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="fca4b220-f48d-4233-9b98-70fab119be5b"
+        name="dodaj nazwę i opis"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="5bbff633-8fa8-434a-bf63-f6abd4b1fff0"
+        name="Component1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

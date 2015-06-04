@@ -1,0 +1,10 @@
+D:\Temp\Polibuda\Uniterm ASP\Uniterm ASP\bin\Uniterm ASP.dll
+D:\Temp\Polibuda\Uniterm ASP\Uniterm ASP\bin\Uniterm ASP.pdb
+D:\Temp\Polibuda\Uniterm ASP\Uniterm ASP\obj\Debug\ResolveAssemblyReference.cache
+D:\Temp\Polibuda\Uniterm ASP\Uniterm ASP\obj\Debug\Uniterm ASP.dll
+D:\Temp\Polibuda\Uniterm ASP\Uniterm ASP\obj\Debug\Uniterm ASP.pdb
+D:\Uniterm ASP\Uniterm ASP\bin\Uniterm ASP.dll
+D:\Uniterm ASP\Uniterm ASP\bin\Uniterm ASP.pdb
+D:\Uniterm ASP\Uniterm ASP\obj\Debug\ResolveAssemblyReference.cache
+D:\Uniterm ASP\Uniterm ASP\obj\Debug\Uniterm ASP.dll
+D:\Uniterm ASP\Uniterm ASP\obj\Debug\Uniterm ASP.pdb
